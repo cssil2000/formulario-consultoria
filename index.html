@@ -286,7 +286,7 @@
 </head>
 <body>
     <div class="container">
-        <img src="https://s3.manususercontent.com/uploads/2025/11/05/12/15/47/teste3.jpg" alt="Logo" class="logo">
+        <img src="https://files.manuscdn.com/user_upload_by_module/session_file/310419663028280371/EuTBPoPUGZFqcoOc.jpg" alt="Cristiano Silva - Posicionamento de Marca & Imagem Estratégica" class="logo">
         
         <div class="progress">
             <div class="progress-bar" id="progressBar"></div>
@@ -489,23 +489,27 @@
             <div class="options">
                 <div class="option" onclick="selectOption(this, 'investimento', 'A')">
                     <div class="option-letter">A</div>
-                    <div class="option-text">De €1.000 a €2.000</div>
+                    <div class="option-text">De €200 a €350</div>
                 </div>
                 <div class="option" onclick="selectOption(this, 'investimento', 'B')">
                     <div class="option-letter">B</div>
-                    <div class="option-text">De €2.000 a €3.000</div>
+                    <div class="option-text">De €350 a €500</div>
                 </div>
                 <div class="option" onclick="selectOption(this, 'investimento', 'C')">
                     <div class="option-letter">C</div>
-                    <div class="option-text">De €3.000 a €6.000</div>
+                    <div class="option-text">De €500 a €650</div>
                 </div>
                 <div class="option" onclick="selectOption(this, 'investimento', 'D')">
                     <div class="option-letter">D</div>
-                    <div class="option-text">De €6.000 a €10.000</div>
+                    <div class="option-text">De €700 a €900</div>
                 </div>
                 <div class="option" onclick="selectOption(this, 'investimento', 'E')">
                     <div class="option-letter">E</div>
-                    <div class="option-text">Os valores estão acima da minha faixa</div>
+                    <div class="option-text">De €1.000 a €1.500</div>
+                </div>
+                <div class="option" onclick="selectOption(this, 'investimento', 'F')">
+                    <div class="option-letter">F</div>
+                    <div class="option-text">Esses valores são muito altos para mim</div>
                 </div>
             </div>
         </div>
@@ -671,6 +675,7 @@
             // Preparar dados para envio
             const formElement = document.createElement('form');
             formElement.action = 'https://formspree.io/f/xannjqda';
+            formElement.target = '_blank';
             formElement.method = 'POST';
             formElement.style.display = 'none';
 
